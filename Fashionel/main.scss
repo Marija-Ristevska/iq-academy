@@ -44,7 +44,7 @@ a {
 //Mixins
 @mixin primary-button {
   padding: 5px 15px;
-  background-color: $color-red;
+  background-color: $color-white;
   color: $color-light-black;
   border: 1px solid $color-light-black;
   transition: color .5s ease-in-out;
@@ -130,8 +130,6 @@ a {
   }
 }
 
-
-
 @mixin media-down($name, $breakpoints: $grid-breakpoints) {
   $min: breakpoint-min($breakpoints);
   $current: map-get($breakpoints, $name);
@@ -177,7 +175,7 @@ $grid-breakpoints: ("laptop": 1024px,
 header {
   display: flex;
   justify-content: space-between;
-  background-color: $color-gray;
+  background-color: $color-ligt-red;
   padding: 10px 25px;
   align-items: center;
 
